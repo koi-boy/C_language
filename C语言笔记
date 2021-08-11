@@ -1,0 +1,69 @@
+平台： 64位 redhat6，vim,gcc(make)
+
+Debian ubuntu rehat5
+
+
+
+Hello.c:
+
+编译器gcc:
+
+
+
+Man gcc
+
+Man 3 exit
+
+
+
+C源文件——>可执行文件：
+
+C源文件 -> 预处理 -> 编译 -> 汇编 -> 链接 -> 可执行文件
+
+
+
+Gcc -E gello.c
+
+#开有 预处理解决
+
+Gcc -E hello.c > hello.i
+
+
+
+预处理 gcc -E  hello.c ->hello.i
+
+编译 gcc -S hello.s  ->hello.i
+
+汇编 gcc -c hello.i -> hello.o
+
+执行 gcc hello.o -o hello
+
+./hello
+
+Gcc hello.c     a.out
+
+Gcc hello.c -o myhello
+
+
+
+Make hello
+
+编辑器：vim,熟悉脚本，常用快捷方式。
+
+C课程思路：
+	1.基本概念
+	2.数据类型，运算符和表达式
+	3.输入输出专题
+	4.流程控制
+	5.数组
+	6.指针
+	7.函数
+	8.构造类型
+	9.动态内存管理
+	10.调试工具和调用技巧(gdb,make）
+	11.常用库函数
+
+
+
+							一 、 基本概念
+
