@@ -27,19 +27,25 @@
 
 
 git 删除 源
+
 	git remote rm origin
 	git remote add origin [url]（ssh源）
 
 or 修改
+
 	git remote origin set-url[url]（ssh源）
 
 or 修改config文件
+
 	git文件夹，config文件，编辑，替换项目地址
 	
 使用token
+
 	username
 	token
+	token 免密
 
+	git remote set-url origin https://<your_token>@github.com/<USERNAME>/<REPO>.git
 可能遇到问题
 如果遇到报错fatal: repository 'xxx.git/' not found，即没找到'xxx.git'。
 
