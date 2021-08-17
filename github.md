@@ -7,22 +7,17 @@
 3. see id\_rsc.pub	in home
 
 4. add SSH key in SSH and GPG keys
+
 	copy the idrsc.pub to the key chart
 
 5. local to github:
 	
 	git init #在此文件夹生成一个.git隐藏文件；
-	
 	git add . #将文件添加到缓冲区 . 代表所有文件
-
 	git add 文件名 #添加指定文件
-
 	git status #查看现在的状态
-
 	git commit -m "注释" #提交添加到缓存区的文件
-
 	git remote add origin XXX@XX/test.git #https://github.com/XXX/Qv2ray.git
-
 	git push origin master ##上传
 
 
